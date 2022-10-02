@@ -1,0 +1,10 @@
+[
+    {
+        "Nombre" : "lionel", 
+        "Apellido" : "messi", 
+        "Edad" : "35",
+        "Genero" : "masculino", 
+        "Empresa" : "psg" 
+    }
+
+]
