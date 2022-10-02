@@ -29,4 +29,3 @@ document.getElementById("clean").addEventListener("click", function(){
     document.getElementById("otro").checked = false;
 
 });
-

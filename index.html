@@ -24,11 +24,11 @@
         <div class="row">
             <div class="col">
             </div>
-            <div class="col">
-                <h2>CONTACTO</h2>
+            <div class="col border">
+                <h2 id="titulo">CONTACTO</h2>
                 <h5>Completa tus datos.</h5>
-                <form action="" method="post" id="form" style="width: 500px;">
-                <label>Información personal:</label>
+                <form action="" method="post" id="form" style="width: 500px;" >
+                <label id="label1">Información personal:</label>
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" class="form-control" maxlength="20" placeholder="ingrese su nombre">
@@ -41,22 +41,19 @@
                     <label for="edad">Edad:</label>
                     <input type="text" id="edad" class="form-control" maxlength="2">
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label" for="masculino">
-                    <input type="radio" class="form-check-input" id="masculino" name="genero" value="masculino">Masculino
-                    </label>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="masculino" name="genero" value="masculino">
+                    <label class="custom-control-label" for="masculino">Masculino</label>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label" for="femenino">
-                    <input type="radio" class="form-check-input" id="femenino" name="genero" value="femenino">Femenino    
-                    </label>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="femenino" name="genero" value="femenino">
+                    <label class="custom-control-label" for="femenino">Femenino</label>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label" for="otro">
-                    <input type="radio" class="form-check-input" id="otro" name="genero" value="otro">Femenino    
-                    </label>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="otro" name="genero" value="otro">
+                    <label class="custom-control-label" for="otro">Otro</label>
                 </div><br>
-                <label for="">Información adicional:</label>
+                <label id="label2">Información adicional:</label>
                 <div class="form-group">
                     <label for="empresa">Empresa:</label>
                     <input type="text" id="empresa" class="form-control" maxlength="20">

@@ -1,7 +1,7 @@
 #form {
     background-color: lightskyblue;
-    font-family: "Lucida Console", "Courier New", monospace;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
 }
 
 body {
@@ -20,3 +20,16 @@ body {
     width: 70%;
 }
 
+#titulo {
+    text-align: center;
+}
+
+#label1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#label2 {
+    font-style: italic;
+    text-decoration: underline;
+}
