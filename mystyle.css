@@ -1,6 +1,22 @@
-#form1 {
-    background-color: darkturquoise;
-    font-family: 'Times New Roman', Times, serif;
+#form {
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+body {
+   background-color: lightblue !important;
+}
+
+#nombre {
+    width: 70%;
+}
+
+#apellido {
+    width: 70%;
+}
+
+#empresa {
+    width: 70%;
 }
 

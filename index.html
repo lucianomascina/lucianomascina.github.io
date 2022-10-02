@@ -1,78 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" type="text/css" href="mystyle.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-
     <!-- jQuery library -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-
     <!-- Popper JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-
     <title>Main Form</title>
-
     <style>
         #edad {
-            width: 10%;
+            width: 15%;
         }
     </style>
-
 </head>
-
 <body>
-
-    <h1>CONTACTO</h1>
-
-    <h4>Completa tus datos.</h4>
-
-    <form action="" id="form1" style="width: 400px;">
-
-        <label>Información personal:</label><br>
-
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" ><br>
-
-        <label for="apellido">Apellido:</label><br>
-        <input type="text" id="apellido"><br>
-
-        <label for="edad">Edad:</label><br>
-        <input type="text" id="edad" ><br>
-
-        <input type="radio" id="masculino" name="genero">
-        <label for="masculino">Masculino</label><br>
-
-        <input type="radio" id="femenino" name="genero">
-        <label for="femenino">Femenino</label><br>
-
-        <input type="radio" id="otro" name="genero">
-        <label for="otro">Otro</label><br>
-
-        <label for="">Información adicional:</label><br>
-
-        <label for="empresa">Empresa:</label><br>
-        <input type="text" id="empresa"><br>
-
-        <input type="submit"  value="Submit" id="save" class="btn btn-success"><br>
-
-        <button type="button" id="clean" class="btn btn-danger" >Clean</button>
-
-    </form>
-   
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>CONTACTO</h2>
+                <h5>Completa tus datos.</h5>
+                <form action="" id="form" style="width: 400px;">
+                <label>Información personal:</label>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" class="form-control" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" class="form-control" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="edad">Edad:</label>
+                    <input type="text" id="edad" class="form-control" maxlength="2">
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="masculino">
+                    <input type="radio" class="form-check-input" id="masculino" name="genero" value="masculino">Masculino
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="femenino">
+                    <input type="radio" class="form-check-input" id="femenino" name="genero" value="femenino">Femenino    
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="otro">
+                    <input type="radio" class="form-check-input" id="otro" name="genero" value="otro">Femenino    
+                    </label>
+                </div><br>
+                <label for="">Información adicional:</label>
+                <div class="form-group">
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" class="form-control" maxlength="20">
+                </div>
+                <input type="submit"  value="Submit" id="save" class="btn btn-success">
+                <button type="button" id="clean" class="btn btn-danger" >Clean</button>
+                
+                </form>
+            </div>
+         
+        </div>
+    </div>
     <script src="myscript.js"></script>
-
 </body>
-
 </html>

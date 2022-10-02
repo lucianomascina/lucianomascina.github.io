@@ -5,10 +5,10 @@ document.getElementById("save").addEventListener("click", function(event){
     let nombre = document.getElementById("nombre").value;
     let apellido = document.getElementById("apellido").value;
 
-    if(nombre === null || nombre.trim() === "")
+    if(nombre === null || nombre.trim() === "" || !isNaN(nombre))
         alert("debe ingresar un nombre");
 
-    if(apellido === null || apellido.trim() === "")
+    if(apellido === null || apellido.trim() === "" || !isNaN(apellido))
         alert("debe ingresar un apellido");
 
 });
