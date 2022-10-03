@@ -2,10 +2,12 @@
     background-color: lightskyblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5px;
+    border: 3px groove lightblue;
 }
 
 body {
    background-color: lightblue !important;
+   
 }
 
 #nombre {
@@ -22,14 +24,28 @@ body {
 
 #titulo {
     text-align: center;
+    color: darkblue;
 }
 
-#label1 {
-    font-style: italic;
-    text-decoration: underline;
+#subtitulo {
+    color: darkcyan;
 }
 
-#label2 {
+#label1, #label2 {
+    text-transform: capitalize;
     font-style: italic;
     text-decoration: underline;
+    padding: 3px;
 }
+
+.header {
+    background-color: lightgray;
+    border: 3px groove lightblue;
+}
+
+input[type=text] {
+    border: 2px groove darkgray;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: lightseagreen;
+  }

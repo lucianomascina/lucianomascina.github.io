@@ -24,18 +24,20 @@
         <div class="row">
             <div class="col">
             </div>
-            <div class="col border">
-                <h2 id="titulo">CONTACTO</h2>
-                <h5>Completa tus datos.</h5>
-                <form action="" method="post" id="form" style="width: 500px;" >
+            <div class="col">
+                <div class="header">
+                    <h2 id="titulo">CONTACTO</h2>
+                    <h5 id="subtitulo">Completa tus datos.</h5>
+                </div> 
+                <form action="" method="post" id="form" style="width: 450px;" >
                 <label id="label1">Información personal:</label>
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" class="form-control" maxlength="20" placeholder="ingrese su nombre">
+                    <input type="text" id="nombre" class="form-control" maxlength="20" placeholder="ingrese su nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" class="form-control" maxlength="20" placeholder="ingrese su apellido">
+                    <input type="text" id="apellido" class="form-control" maxlength="20" placeholder="ingrese su apellido" required>
                 </div>
                 <div class="form-group">
                     <label for="edad">Edad:</label>
@@ -60,7 +62,6 @@
                 </div>
                 <input type="submit"  value="Submit" id="save" class="btn btn-success">
                 <button type="button" id="clean" class="btn btn-danger" >Clean</button>
-                
                 </form>
             </div>
             <div class="col">
