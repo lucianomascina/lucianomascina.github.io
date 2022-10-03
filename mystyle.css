@@ -7,9 +7,30 @@
 }
 
 body {
-    background-color: lightblue !important;
     background: url("san-francisco.jpeg") no-repeat fixed;
     background-size: cover;
+}
+
+#label1, #label2 {
+    text-transform: capitalize;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+    padding: 3px;
+}
+
+.header {
+    background-color: lightgray;
+    border: 5px groove lightblue;
+    border-radius: 10px;
+    width: 450px;
+}
+
+input[type=text] {
+    border: 2px groove darkgray;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: blue;
 }
 
 #nombre {
@@ -35,24 +56,3 @@ body {
 #subtitulo {
     color: darkcyan;
 }
-
-#label1, #label2 {
-    text-transform: capitalize;
-    font-style: italic;
-    color: blue;
-    text-decoration: underline;
-    padding: 3px;
-}
-
-.header {
-    background-color: lightgray;
-    border: 5px groove lightblue;
-    border-radius: 10px;
-}
-
-input[type=text] {
-    border: 2px groove darkgray;
-    border-radius: 4px;
-    background-color: whitesmoke;
-    color: blue;
-  }
