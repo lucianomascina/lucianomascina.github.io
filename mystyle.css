@@ -2,24 +2,29 @@
     background-color: lightskyblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5px;
-    border: 3px groove lightblue;
+    border: 5px groove lightblue;
+    border-radius: 10px;
 }
 
 body {
    background-color: lightblue !important;
+   background: url("holbox.jpg") no-repeat fixed center;
    
 }
 
 #nombre {
     width: 70%;
+    
 }
 
 #apellido {
     width: 70%;
+    
 }
 
 #empresa {
-    width: 70%;
+    width: 80%;
+    
 }
 
 #titulo {
@@ -34,18 +39,20 @@ body {
 #label1, #label2 {
     text-transform: capitalize;
     font-style: italic;
+    color: blue;
     text-decoration: underline;
     padding: 3px;
 }
 
 .header {
     background-color: lightgray;
-    border: 3px groove lightblue;
+    border: 5px groove lightblue;
+    border-radius: 10px;
 }
 
 input[type=text] {
     border: 2px groove darkgray;
     border-radius: 4px;
     background-color: whitesmoke;
-    color: lightseagreen;
+    color: blue;
   }
