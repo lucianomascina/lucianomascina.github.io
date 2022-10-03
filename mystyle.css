@@ -7,9 +7,9 @@
 }
 
 body {
-   background-color: lightblue !important;
-   background: url("holbox.jpg") no-repeat fixed center;
-   
+    background-color: lightblue !important;
+    background: url("san-francisco.jpeg") no-repeat fixed;
+    background-size: cover;
 }
 
 #nombre {
