@@ -2,20 +2,38 @@
 function ValidateName() {
     let nombre = document.getElementById("nombre").value;
     if(nombre === null || nombre.trim() === "" || !isNaN(nombre))
-    alert("debe ingresar un nombre");
+    {
+        alert("debe ingresar un nombre");
+        return false;
+    }
+    
+    return true;
 }
 
 function ValidateLastName(){
     let apellido = document.getElementById("apellido").value;
     if(apellido === null || apellido.trim() === "" || !isNaN(apellido))
+    {
         alert("debe ingresar un apellido");
+        return false;
+    }
+    
+    return true;
+      
 }
 
 document.getElementById("save").addEventListener("click", function(event){
 
     event.preventDefault();
-    ValidateName();
-    ValidateLastName();
+    
+    if(ValidateName() && ValidateLastName())
+    {
+        alert("contacto agregado")
+    }
+    else
+    {
+        return false;
+    }
 
 });
 
