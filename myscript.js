@@ -11,18 +11,12 @@ function ValidateLastName(){
         alert("debe ingresar un apellido");
 }
 
-function ValidateAge() {
-    let edad = document.getElementById("edad").value; 
-    if(isNaN(edad))
-        alert("la edad no puede contener letras");
-}
-
 document.getElementById("save").addEventListener("click", function(event){
 
     event.preventDefault();
     ValidateName();
     ValidateLastName();
-    ValidateAge();
+
 });
 
 function Cleaner() {
